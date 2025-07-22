@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>messenger.jar</jar>
+  <outfile>Messenger.exe</outfile>
+  <errTitle>Messenger Error</errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>https://adoptium.net/</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+
+  <!-- JRE -->
+  <jre>
+    <path></path> <!-- leave empty to use system JRE -->
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <minVersion>17</minVersion>
+  </jre>
+</launch4jConfig>
